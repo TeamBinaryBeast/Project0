@@ -244,7 +244,7 @@
     }
 
     .header_logo_sm{
-        height: 62px
+        height: 50px
     }
     /* header design end */
 
@@ -253,6 +253,7 @@
         .self_branding{
         width: 100%;
         height: 810px;
+        padding: 0px;
         padding-top: 50px;
         text-align: center;
         background-image: url(https://media.giphy.com/media/26n6CWImwECKu3fy0/source.gif);
@@ -312,7 +313,7 @@
         /* self description design start */
         .self_description{
         width: 100%;
-        height: 810px;
+        height: 910px;
 
         background-color: lightgreen;
         }
@@ -330,7 +331,7 @@
         margin-top: 10px;
         padding: 30px;
         width: 98%;
-        height: 343px;
+        height: 443px;
         text-align: justify;
         background-color: black;
         color: lightgreen;
