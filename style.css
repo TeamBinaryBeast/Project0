@@ -41,53 +41,184 @@
         
     }
 }
-/* For device width (801-980)px and up */
-@media (min-width: 801px) {
-
-    body {
-        
-    }
-}
-/* For device width (981-1280)px and up */
-@media (min-width: 981px) {
-
-    body {
-        
-    }
-}
-/* For device width 1281px and up */
-@media (min-width: 1281px) {
+/* For device width (1000-1359)px and up */
+@media (min-width: 1000px) {
 
     body {
         
     }
 
-    .self_branding{
-        width: 40%;
+    /* header design start */
+    .header{
+        background-color: lightgreen;  
+        padding: 5px;
+    }
+
+    .header_logo{
+        height: 62px;
+    }
+    /* header design end */
+
+    /* main body design start */
+        /* self branding design start */
+        .self_branding{
+        width: 35%;
         height: 810px;
-        padding-left: 50px;
+        padding-left: 25px;
         padding-top: 50px;
         float: left;
         background-image: url(https://media.giphy.com/media/26n6CWImwECKu3fy0/source.gif);
         color: white;
-    }
+        }
 
-    .self_description{
-        width: 50%;
+        .branding{
+        color: lightgreen;
+        }
+        
+        /* short description design start */
+        .hello{
+        margin-top: 170px;
+        color: lightgreen;
+        }
+            
+        .myname{
+        font-size: 27px;
+        }   
+
+        .short_description{
+        margin-top: 40px;
+        font-size: 16px;
+        }
+        /* short description design end */
+        
+        /* hire button design start */
+        .hire_btn{
+        background: transparent;
+        color: lightgreen;
+        padding: 5px 12px;
+        border: 2px solid lightgreen;
+        text-align: center;
+        }
+        /* hire button design end */
+
+        /* social link design start */
+        div.social{
+        margin-top: 150px;
+        }
+
+        div.social > h4{
+        color: lightgreen;
+        text-decoration: underline;
+        margin-bottom: 20px;
+        }
+
+        div.social > a > img{
+        width: 27px;
+        height: 27px;
+        margin-right: 20px;
+        }
+        /* social link design end */
+        /* self branding design end */
+        
+
+        /* self description design start */
+        .self_description{
+        width: 53%;
         height: 810px;
         float: left;
         background-color: lightgreen;
-    }
+        }
+        
+        /* self image design start */
+        .self_img{
+        width: 100%;
+        height: 450px;
+        }
+        /* self image design end */
+        
+        /* self resume design start */
+        .self_resume{
+        margin: 0px auto;
+        margin-top: 10px;
+        padding: 30px;
+        width: 98%;
+        height: 343px;
+        background-color: black;
+        color: lightgreen;
+        border-color: 2px solid lightgreen;
+        }
 
-    .navigation_menu{
-        width: 10%;
+        .resume_btn{
+        margin-top: 8px;
+        justify-content: center;
+        }
+        /* self resume design end */
+        /* self description design end */
+
+
+        /* navigation menu design start */
+        .navigation_menu{
+        width: 12%;
         height: 810px;
-        padding: 25px;
+        padding: 25px 5px;
         float: left;
         background-color: black;
         color: lightgreen;
-    }
+        }
+        
+        /* navigation menu logo design start */
+        .nav_logo{
+        width: 70px;
+        height: 70px;
+        }
+        /* navigation menu logo design end */
 
+        .nav{
+        margin-top: 210px;
+        justify-content: center;
+        }
+        
+        /* active navigation menu design start */
+        .active{
+        background: transparent;
+        color: lightgreen;
+        padding: 5px 12px;
+        border: 2px solid lightgreen;
+        text-align: center;
+        }
+        /* active navigation menu design end */
+        
+        /* navigation menu list design start */
+        div.navigation_menu nav ul{
+        list-style: none;
+        text-align: center;
+        }
+
+        div.navigation_menu nav ul li{
+        margin: 35px 0px;
+        font-weight: bold;
+        font-size: 16px;
+        }
+
+        div.navigation_menu nav ul li a{
+        text-decoration: none;
+        color: lightgreen;
+        }
+        
+        /* navigation menu hover design start */
+        div.navigation_menu nav ul li a:hover{
+        background: transparent;
+        color: lightgreen;
+        padding: 5px 12px;
+        border: 2px solid lightgreen;
+        text-align: center;
+        }
+        /* navigation menu hover design end */
+        /* navigation menu list design end */
+        /* navigation menu design end */
+    /* main body design end */
+
+    /* footer design start */
     .footer{
         height: 70px;
         padding: 20px;
@@ -97,55 +228,16 @@
         clear: both;
         border: 2px solid lightgreen;
     }
+    /* footer design end */
+}
+/* For device width (1350-1629)px and up */
+@media (min-width: 1360px) {
 
-    .hello{
-        margin-top: 170px;
-        color: lightgreen;
-    }
-
-    .short_description{
-        margin-top: 40px;
-        font-size: 25px;
-    }
-
-    .self_img{
-        width: 100%;
-        height: 550px;
-    }
-
-    .branding{
-        color: lightgreen;
-    }
-
-    .hire_btn{
-        background: transparent;
-        color: lightgreen;
-        padding: 5px 12px;
-        border: 2px solid lightgreen;
-        text-align: center;
-    }
-
-    .myname{
-        font-size: 50px
-    }
-
-    div.social{
-        margin-top: 150px;
-    }
-
-    div.social > h4{
-        color: lightgreen;
-        text-decoration: underline;
-        margin-bottom: 20px;
-    }
-
-    div.social > a > img{
-        width: 27px;
-        height: 27px;
-        margin-right: 20px;
+    body {
         
     }
 
+    /* header design start */
     .header{
         background-color: lightgreen;  
         padding: 5px;
@@ -154,8 +246,277 @@
     .header_logo{
         height: 62px;
     }
+    /* header design end */
 
-    .self_resume{
+    /* main body design start */
+        /* self branding design start */
+        .self_branding{
+        width: 35%;
+        height: 810px;
+        padding-left: 50px;
+        padding-top: 50px;
+        float: left;
+        background-image: url(https://media.giphy.com/media/26n6CWImwECKu3fy0/source.gif);
+        color: white;
+        }
+
+        .branding{
+        color: lightgreen;
+        }
+        
+        /* short description design start */
+        .hello{
+        margin-top: 170px;
+        color: lightgreen;
+        }
+            
+        .myname{
+        font-size: 35px;
+        }   
+
+        .short_description{
+        margin-top: 40px;
+        font-size: 20px;
+        }
+        /* short description design end */
+        
+        /* hire button design start */
+        .hire_btn{
+        background: transparent;
+        color: lightgreen;
+        padding: 5px 12px;
+        border: 2px solid lightgreen;
+        text-align: center;
+        }
+        /* hire button design end */
+
+        /* social link design start */
+        div.social{
+        margin-top: 150px;
+        }
+
+        div.social > h4{
+        color: lightgreen;
+        text-decoration: underline;
+        margin-bottom: 20px;
+        }
+
+        div.social > a > img{
+        width: 27px;
+        height: 27px;
+        margin-right: 20px;
+        }
+        /* social link design end */
+        /* self branding design end */
+        
+
+        /* self description design start */
+        .self_description{
+        width: 53%;
+        height: 810px;
+        float: left;
+        background-color: lightgreen;
+        }
+        
+        /* self image design start */
+        .self_img{
+        width: 100%;
+        height: 530px;
+        }
+        /* self image design end */
+        
+        /* self resume design start */
+        .self_resume{
+        margin: 0px auto;
+        margin-top: 10px;
+        padding: 30px;
+        width: 98%;
+        height: 264px;
+        background-color: black;
+        color: lightgreen;
+        border-color: 2px solid lightgreen;
+        }
+
+        .resume_btn{
+        margin-top: 8px;
+        justify-content: center;
+        }
+        /* self resume design end */
+        /* self description design end */
+
+
+        /* navigation menu design start */
+        .navigation_menu{
+        width: 12%;
+        height: 810px;
+        padding: 25px 20px;
+        float: left;
+        background-color: black;
+        color: lightgreen;
+        }
+        
+        /* navigation menu logo design start */
+        .nav_logo{
+        width: 70px;
+        height: 70px;
+        }
+        /* navigation menu logo design end */
+
+        .nav{
+        margin-top: 210px;
+        justify-content: center;
+        }
+        
+        /* active navigation menu design start */
+        .active{
+        background: transparent;
+        color: lightgreen;
+        padding: 5px 12px;
+        border: 2px solid lightgreen;
+        text-align: center;
+        }
+        /* active navigation menu design end */
+        
+        /* navigation menu list design start */
+        div.navigation_menu nav ul{
+        list-style: none;
+        text-align: center;
+        }
+
+        div.navigation_menu nav ul li{
+        margin: 35px 0px;
+        font-weight: bold;
+        font-size: 18px;
+        }
+
+        div.navigation_menu nav ul li a{
+        text-decoration: none;
+        color: lightgreen;
+        }
+        
+        /* navigation menu hover design start */
+        div.navigation_menu nav ul li a:hover{
+        background: transparent;
+        color: lightgreen;
+        padding: 5px 12px;
+        border: 2px solid lightgreen;
+        text-align: center;
+        }
+        /* navigation menu hover design end */
+        /* navigation menu list design end */
+        /* navigation menu design end */
+    /* main body design end */
+
+    /* footer design start */
+    .footer{
+        height: 70px;
+        padding: 20px;
+        background-color: black;
+        text-align: center;
+        color: lightgreen;
+        clear: both;
+        border: 2px solid lightgreen;
+    }
+    /* footer design end */
+}
+
+/* For device width 1630px and up */
+@media (min-width: 1630px) {
+
+    body {
+        
+    }
+
+/* header design start */
+    .header{
+        background-color: lightgreen;  
+        padding: 5px;
+    }
+
+    .header_logo{
+        height: 62px;
+    }
+    /* header design end */
+
+    /* main body design start */
+        /* self branding design start */
+        .self_branding{
+        width: 40%;
+        height: 810px;
+        padding-left: 50px;
+        padding-top: 50px;
+        float: left;
+        background-image: url(https://media.giphy.com/media/26n6CWImwECKu3fy0/source.gif);
+        color: white;
+        }
+
+        .branding{
+        color: lightgreen;
+        }
+        
+        /* short description design start */
+        .hello{
+        margin-top: 170px;
+        color: lightgreen;
+        }
+            
+        .myname{
+        font-size: 50px
+        }   
+
+        .short_description{
+        margin-top: 40px;
+        font-size: 25px;
+        }
+        /* short description design end */
+        
+        /* hire button design start */
+        .hire_btn{
+        background: transparent;
+        color: lightgreen;
+        padding: 5px 12px;
+        border: 2px solid lightgreen;
+        text-align: center;
+        }
+        /* hire button design end */
+
+        /* social link design start */
+        div.social{
+        margin-top: 150px;
+        }
+
+        div.social > h4{
+        color: lightgreen;
+        text-decoration: underline;
+        margin-bottom: 20px;
+        }
+
+        div.social > a > img{
+        width: 27px;
+        height: 27px;
+        margin-right: 20px;
+        }
+        /* social link design end */
+        /* self branding design end */
+        
+
+        /* self description design start */
+        .self_description{
+        width: 50%;
+        height: 810px;
+        float: left;
+        background-color: lightgreen;
+        }
+        
+        /* self image design start */
+        .self_img{
+        width: 100%;
+        height: 550px;
+        }
+        /* self image design end */
+        
+        /* self resume design start */
+        .self_resume{
         margin: 0px auto;
         margin-top: 10px;
         padding: 30px;
@@ -164,55 +525,89 @@
         background-color: black;
         color: lightgreen;
         border-color: 2px solid lightgreen;
+        }
 
-    }
-
-    .resume_btn{
+        .resume_btn{
         margin-top: 8px;
         justify-content: center;
-    }
+        }
+        /* self resume design end */
+        /* self description design end */
 
-    div.navigation_menu nav ul{
-        list-style: none;
-        text-align: center;
-    }
 
-    div.navigation_menu nav ul li a{
-        text-decoration: none;
+        /* navigation menu design start */
+        .navigation_menu{
+        width: 10%;
+        height: 810px;
+        padding: 25px;
+        float: left;
+        background-color: black;
         color: lightgreen;
-    }
+        }
+        
+        /* navigation menu logo design start */
+        .nav_logo{
+        width: 70px;
+        height: 70px;
+        }
+        /* navigation menu logo design end */
 
-    div.navigation_menu nav ul li a:hover{
+        .nav{
+        margin-top: 210px;
+        justify-content: center;
+        }
+        
+        /* active navigation menu design start */
+        .active{
         background: transparent;
         color: lightgreen;
         padding: 5px 12px;
         border: 2px solid lightgreen;
         text-align: center;
-    }
+        }
+        /* active navigation menu design end */
+        
+        /* navigation menu list design start */
+        div.navigation_menu nav ul{
+        list-style: none;
+        text-align: center;
+        }
 
-    div.navigation_menu nav ul li{
+        div.navigation_menu nav ul li{
         margin: 35px 0px;
         font-weight: bold;
         font-size: 18px;
-    }
+        }
 
-    .active{
+        div.navigation_menu nav ul li a{
+        text-decoration: none;
+        color: lightgreen;
+        }
+        
+        /* navigation menu hover design start */
+        div.navigation_menu nav ul li a:hover{
         background: transparent;
         color: lightgreen;
         padding: 5px 12px;
         border: 2px solid lightgreen;
         text-align: center;
-    }
+        }
+        /* navigation menu hover design end */
+        /* navigation menu list design end */
+        /* navigation menu design end */
+    /* main body design end */
 
-    .nav{
-        margin-top: 210px;
-        justify-content: center;
-    }
-
-    .nav_logo{
-        width: 70px;
+    /* footer design start */
+    .footer{
         height: 70px;
+        padding: 20px;
+        background-color: black;
+        text-align: center;
+        color: lightgreen;
+        clear: both;
+        border: 2px solid lightgreen;
     }
+    /* footer design end */
 }
 
 
