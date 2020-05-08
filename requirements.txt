@@ -1,0 +1,16 @@
+1. at least 4 HTML Page linked with each other by anchor tag
+2. At least 1 List (Order List or Unorder List)
+3. At least 1 Table
+4. At least 1 Image
+5. At least 1 Stylesheet File
+6. Stylesheet must use at least 5 different CSS Property
+7. Stylesheet must use at least 5 different css selector
+8. Stylesheet must use at least 1 #id selector
+9. Stylesheet must use at least 1 .class selector
+10. Stylesheet must include at least 1 mobile responsive media query
+11. Must use Bootstrap 4
+12. At least 1 Bootstrap component
+13. At least 2 Bootstrap column using Bootstrap grid model
+14. At least 1 SCSS variable
+15. At least 1 example of SCSS Nesting
+16. At least 1 example of SCSS inheritance

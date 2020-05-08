@@ -1,0 +1,219 @@
+/* Global Margin and Padding will be 0px */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* For device width (200-320)px and up */
+@media (min-width: 200px) {
+
+    body {
+        
+    }
+}
+/* For device width (321-360)px and up */
+@media (min-width: 321px) {
+
+    body {
+        
+    }
+}
+/* For device width (361-768)px and up */
+@media (min-width: 361px) {
+
+    body {
+        
+    }
+}
+/* For device width (361-768)px and up */
+@media (min-width: 361px) {
+
+    body {
+        
+    }
+}
+/* For device width (769-800)px and up */
+@media (min-width: 769px) {
+
+    body {
+        
+    }
+}
+/* For device width (801-980)px and up */
+@media (min-width: 801px) {
+
+    body {
+        
+    }
+}
+/* For device width (981-1280)px and up */
+@media (min-width: 981px) {
+
+    body {
+        
+    }
+}
+/* For device width 1281px and up */
+@media (min-width: 1281px) {
+
+    body {
+        
+    }
+
+    .self_branding{
+        width: 40%;
+        height: 810px;
+        padding-left: 50px;
+        padding-top: 50px;
+        float: left;
+        background-image: url(https://media.giphy.com/media/26n6CWImwECKu3fy0/source.gif);
+        color: white;
+    }
+
+    .self_description{
+        width: 50%;
+        height: 810px;
+        float: left;
+        background-color: lightgreen;
+    }
+
+    .navigation_menu{
+        width: 10%;
+        height: 810px;
+        padding: 25px;
+        float: left;
+        background-color: black;
+        color: lightgreen;
+    }
+
+    .footer{
+        height: 70px;
+        padding: 20px;
+        background-color: black;
+        text-align: center;
+        color: lightgreen;
+        clear: both;
+        border: 2px solid lightgreen;
+    }
+
+    .hello{
+        margin-top: 170px;
+        color: lightgreen;
+    }
+
+    .short_description{
+        margin-top: 40px;
+        font-size: 25px;
+    }
+
+    .self_img{
+        width: 100%;
+        height: 550px;
+    }
+
+    .branding{
+        color: lightgreen;
+    }
+
+    .hire_btn{
+        background: transparent;
+        color: lightgreen;
+        padding: 5px 12px;
+        border: 2px solid lightgreen;
+        text-align: center;
+    }
+
+    .myname{
+        font-size: 50px
+    }
+
+    div.social{
+        margin-top: 150px;
+    }
+
+    div.social > h4{
+        color: lightgreen;
+        text-decoration: underline;
+        margin-bottom: 20px;
+    }
+
+    div.social > a > img{
+        width: 27px;
+        height: 27px;
+        margin-right: 20px;
+        
+    }
+
+    .header{
+        background-color: lightgreen;  
+        padding: 5px;
+    }
+
+    .header_logo{
+        height: 62px;
+    }
+
+    .self_resume{
+        margin: 0px auto;
+        margin-top: 10px;
+        padding: 30px;
+        width: 98%;
+        height: 243px;
+        background-color: black;
+        color: lightgreen;
+        border-color: 2px solid lightgreen;
+
+    }
+
+    .resume_btn{
+        margin-top: 8px;
+        justify-content: center;
+    }
+
+    div.navigation_menu nav ul{
+        list-style: none;
+        text-align: center;
+    }
+
+    div.navigation_menu nav ul li a{
+        text-decoration: none;
+        color: lightgreen;
+    }
+
+    div.navigation_menu nav ul li a:hover{
+        background: transparent;
+        color: lightgreen;
+        padding: 5px 12px;
+        border: 2px solid lightgreen;
+        text-align: center;
+    }
+
+    div.navigation_menu nav ul li{
+        margin: 35px 0px;
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+    .active{
+        background: transparent;
+        color: lightgreen;
+        padding: 5px 12px;
+        border: 2px solid lightgreen;
+        text-align: center;
+    }
+
+    .nav{
+        margin-top: 210px;
+        justify-content: center;
+    }
+
+    .nav_logo{
+        width: 70px;
+        height: 70px;
+    }
+}
+
+
+
